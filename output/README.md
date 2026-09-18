@@ -46,14 +46,20 @@ national banks & AMCs (Wells Fargo, BofA/LandSafe, US Bank, Regions, JPMorgan Ch
 BMO, ServiceLink, Amrock, Dart, Opteon, Solidifi, Class Valuation, CoreLogic, Accurate
 Group, First American, MountainSeed, Nationwide Appraisal Network, First Citizens).
 
-**Progress: 48 of 204 researched.** Results so far:
-- **15 LinkedIn URLs found** (11 High / Medium-High confidence), e.g. Sara Bartolini
-  (Amrock, 10/10), Gregory Hartley (Regions), Janet Ingersoll (Solidifi), Jackson Reedy
-  (Opteon), Rick Rokusek (BofA), Judy Bruton (BofA/LandSafe), Steve Faughn (Solidifi),
-  Ali Boloorian (WF), Gina Stokes (US Bank).
-- **2 employer-confirmed** (Nikole Avers = Dart Chief Appraiser; Antonio Collins = WF
-  appraiser) where the person is confirmed but no public /in/ URL surfaced.
-- Company domains filled for every row from the known employer domain.
+**COMPLETE: all 204 targets researched (203 rows after de-duping one repeat).**
+- **70 rows with a LinkedIn profile URL** — 48 High, 14 Medium-High, 6 Medium, 2 Low.
+- **34 rows employer-confirmed** — the specific appraiser is confirmed by an external
+  source (ZoomInfo/RocketReach/company site/ASC) but no public `/in/` URL surfaced;
+  most of these carry a work email pattern instead.
+- **32 rows with an email** (verified or published, masked at the source e.g.
+  `first@employer.com`).
+- **99 rows "None"** — no confident public match (mostly common names among Wells Fargo /
+  Chase / BofA field staff in large metros).
+- Company domain filled for every row from the known employer domain.
+
+Net: ~51% of bank/AMC rows resolved to either a LinkedIn URL or a confirmed identity.
+Strongest clusters: Rally Appraisal (IA), Opteon, Amrock, Solidifi, Gate City Bank (ND),
+and any chief/regional/review-appraiser manager role.
 
 **Observed pattern (guides where to spend effort):**
 - **Hits** cluster at AMCs (Amrock, Solidifi, Opteon, Dart, Accurate, ServiceLink) and on
