@@ -7,7 +7,8 @@ domain={"MountainSeed":"mountainseed.com","Synovus":"synovus.com","Dart Appraisa
  "Wells Fargo":"wellsfargo.com","Opteon":"opteonsolutions.com","Bank of America":"bankofamerica.com",
  "US Bank":"usbank.com","Class Valuation":"classvaluation.com","JPMorgan Chase":"jpmorganchase.com","BMO":"bmo.com",
  "Nationwide Appraisal Network":"nationwideappraisalnetwork.com","First Citizens Bank":"firstcitizens.com",
- "Accurate Group":"accurategroup.com","First American":"firstam.com","CoreLogic":"corelogic.com"}
+ "Accurate Group":"accurategroup.com","First American":"firstam.com","CoreLogic":"corelogic.com",
+ "Rally Appraisal":"rallyappraisal.com","PCV Murcor":"pcvmurcor.com","Consolidated Analytics":"consolidatedanalytics.com"}
 cols=["#","Employer Type","Employer","First Name","Middle Name","Last Name","Suffix","Lic State","License #",
       "Title","City","State","Phone","LinkedIn URL","LinkedIn Confidence","LinkedIn Notes","Company Domain","Email (found)"]
 out=[]
