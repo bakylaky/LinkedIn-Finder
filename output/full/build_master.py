@@ -41,10 +41,21 @@ def curated_domain(company):
         if kw in c: return dom
     return ""
 
-# --- LinkedIn from agent chunk outputs (row_id keyed) ---
+# --- LinkedIn: precedence hand-verified > firecrawl(url) > agent(url/employer-confirmed) > blank ---
 li={}
-def is_unsearched(notes):
-    return bool(re.search(r"not searched|budget", notes or "", re.I))
+# (1) Firecrawl "none"/blank rows first (lowest priority placeholders)
+fc={}
+fcpath=os.path.join(BASE,"li_firecrawl.tsv")
+if os.path.exists(fcpath):
+    for line in open(fcpath,encoding="utf-8"):
+        p=line.rstrip("\n").split("\t")
+        if len(p)<3: continue
+        rid,url,conf=p[0],p[1],p[2]; title=p[3] if len(p)>3 else ""; email=p[4] if len(p)>4 else ""
+        fc[rid]=(url,conf,title,email)
+for rid,(url,conf,title,email) in fc.items():
+    if not url:
+        li[rid]={"url":"","conf":"","notes":"","email":email,"src":"fc"}
+# (2) agent chunks: only where they carry a URL or employer-confirmed (skip their 'none'/not-searched)
 for fp in sorted(glob.glob(os.path.join(BASE,"li_chunks","out_*.csv"))):
     try:
         for r in csv.DictReader(open(fp,encoding="utf-8")):
@@ -54,11 +65,16 @@ for fp in sorted(glob.glob(os.path.join(BASE,"li_chunks","out_*.csv"))):
             conf=(r.get("confidence") or "").strip()
             notes=(r.get("notes") or "").strip()
             email=(r.get("email") or "").strip()
-            if not url and is_unsearched(notes):
-                conf="not-searched"
-            li[rid]={"url":url,"conf":conf,"notes":notes,"email":email,"src":"agent"}
+            if url or conf.lower().startswith("employer"):
+                li[rid]={"url":url,"conf":conf,"notes":notes,"email":email,"src":"agent"}
     except Exception as e:
         print("skip",fp,e)
+# (3) Firecrawl URL rows override agent
+for rid,(url,conf,title,email) in fc.items():
+    if url:
+        prev=li.get(rid,{})
+        li[rid]={"url":url,"conf":conf,"notes":(title+" [firecrawl]").strip(),
+                 "email":email or prev.get("email",""),"src":"fc"}
 
 # --- overlay earlier hand-verified passes, matched by (first,last,city,state) ---
 def key(first,last,city,state):
