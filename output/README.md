@@ -67,6 +67,30 @@ and any chief/regional/review-appraiser manager role.
 - **Misses** cluster on **common names** among Wells Fargo / Chase field staff in large CA
   metros — many have no public profile, and common names can't be matched safely.
 
+## Regional appraisal firms (Task 1 expansion) — [`regional_enriched.csv`](regional_enriched.csv)
+Beyond the national banks/AMCs, I enriched **91 appraisers at 9 distinctive multi-person
+regional firms**: RSDS Valuations, WAIV Valuation, Property Sciences, Accurity Consolidated,
+True Footage, EFIRD Appraisals, Griffin Appraisals, Definitive Valuations, Martin Appraisal Group.
+(Generic firm names like "Accurate Appraisals" were skipped — they merge unrelated same-named
+shops across states.)
+
+**Results: 22 LinkedIn URLs (16 High, 4 Med-High, 1 Med, 1 Low) + 33 employer-confirmed + 17 emails.**
+~60% of rows resolved to a URL or a confirmed identity. Confirmed firm domains: `rsdsllc.com`,
+`waiv.com`, `propsci.com`, `accurity.com`, `truefootage.tech`, `efirdappraisals.com`,
+`definitivevaluations.com`. Firm principals/owners were the most findable (e.g. Natalie Jay /
+Definitive founder, Will & Chantal Griffin, Gregge Efird, Ryan Judd / True Footage,
+Robert Banton & Frank Moody / WAIV, Kurt Stieghan & Brad McNally / True Footage).
+NB: "Griffin Appraisals" is actually 3 separate firms (Madison AL / Birmingham AL / Mill Valley CA).
+
+## Deepening the bank/AMC set (Task 2)
+Chased the 34 employer-confirmed bank/AMC rows for personal `/in/` URLs and re-checked the
+Medium/Low ones. Net gain: **Mike Helmich (Rally)** resolved to a URL. The remaining
+employer-confirmed people are confirmed via ZoomInfo/company site/ASC but are **not individually
+indexed on LinkedIn** by name (private or not surfaced) — public search can't recover those URLs,
+so they stay employer-confirmed with an email pattern + domain. The Medium/Low rows can't be
+pushed higher without opening the profiles directly (LinkedIn is login-walled to automated fetch),
+so their honest labels stand.
+
 ## Method notes / limitations
 - LinkedIn blocks automated profile fetching, so matching relies on public search snippets
   (name + title + location) — this is deliberately conservative to avoid false positives.
