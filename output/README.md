@@ -40,6 +40,27 @@ largely does not maintain LinkedIn profiles. Hit-rate should be materially highe
 - appraisers in **major metros** (the CA / NY / TX blocks), and
 - **younger / more recently licensed** appraisers.
 
+## Bank / AMC segment (higher-yield) — [`bank_amc_enriched.csv`](bank_amc_enriched.csv)
+Full target pool: [`bank_amc_targets.csv`](bank_amc_targets.csv) = **204** appraisers at
+national banks & AMCs (Wells Fargo, BofA/LandSafe, US Bank, Regions, JPMorgan Chase,
+BMO, ServiceLink, Amrock, Dart, Opteon, Solidifi, Class Valuation, CoreLogic, Accurate
+Group, First American, MountainSeed, Nationwide Appraisal Network, First Citizens).
+
+**Progress: 48 of 204 researched.** Results so far:
+- **15 LinkedIn URLs found** (11 High / Medium-High confidence), e.g. Sara Bartolini
+  (Amrock, 10/10), Gregory Hartley (Regions), Janet Ingersoll (Solidifi), Jackson Reedy
+  (Opteon), Rick Rokusek (BofA), Judy Bruton (BofA/LandSafe), Steve Faughn (Solidifi),
+  Ali Boloorian (WF), Gina Stokes (US Bank).
+- **2 employer-confirmed** (Nikole Avers = Dart Chief Appraiser; Antonio Collins = WF
+  appraiser) where the person is confirmed but no public /in/ URL surfaced.
+- Company domains filled for every row from the known employer domain.
+
+**Observed pattern (guides where to spend effort):**
+- **Hits** cluster at AMCs (Amrock, Solidifi, Opteon, Dart, Accurate, ServiceLink) and on
+  **distinctive names** or **manager/chief-appraiser roles**.
+- **Misses** cluster on **common names** among Wells Fargo / Chase field staff in large CA
+  metros — many have no public profile, and common names can't be matched safely.
+
 ## Method notes / limitations
 - LinkedIn blocks automated profile fetching, so matching relies on public search snippets
   (name + title + location) — this is deliberately conservative to avoid false positives.
