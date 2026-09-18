@@ -1,0 +1,205 @@
+idx,EmployerType,Employer,First,Middle,Last,Suffix,LicState,License#,Title,CompanyRaw,City,State,Zip,Phone
+9,AMC,MountainSeed,David,Andrew,Allen,,AL,3308,Certified Residential,MountainSeed Appraisal Management,New Bern,NC,28562,252-474-9565
+19,BANK,Synovus,Michael,Kerr,Arnold,,AL,R01359,Certified Residential,Synovus Financial Corporation,Gadsden,AL,35901,205-868-6109
+24,AMC,Dart Appraisal,Nikole,Marie,Avers,,AL,R01301,Certified Residential,Dart Appraisal,Gulfport,FL,33707,615-651-9567
+39,AMC,Amrock,Sara,M,Bartolini,,AL,R01398,Certified Residential,"Amrock, LLC",Madison,FL,32340,954-662-8320
+94,AMC,Dart Appraisal,Natalie,Thompson,Canipelli,,AL,R01180,Certified Residential,Dart Appraisal,Palm Coast,FL,32137,678-982-0439
+116,AMC,ServiceLink,Mindi,,Cohen,,AL,R01362,Certified Residential,ServiceLink,Weston,FL,33331,954-882-8138
+245,BANK,Regions Bank,Gregory,R,Hartley,,AL,R00132,Certified Residential,Regions Bank,Vestavia,AL,35226,205-966-2614
+275,AMC,ServiceLink,Laura,Michelle,Hummel,,AL,R01204,Certified Residential,ServiceLink,Buford,GA,30518,678-521-7987
+277,AMC,Solidifi,Janet,C,Ingersoll,,AL,R01371,Certified Residential,Solidifi,Jeannette,PA,15644,412-529-1208
+339,AMC,Amrock,Susan,,Lynn,,AL,R01341,Certified Residential,"Amrock, Inc.",Cleveland,TN,37312,770-855-9585
+354,BANK,Wells Fargo,Tamala,Nelson,Martinez,,AL,R01356,Certified Residential,Wells Fargo,Chelsea,AL,35043,205-531-0085
+401,AMC,MountainSeed,Dan,Stephen,Nestor,,AL,R01408,Certified Residential,MountainSeed Appraisal Management,Suwanee,GA,30024,770-634-8954
+452,AMC,Opteon,Jackson,,Reedy,,AL,3121,Certified Residential,"Opteon Appraisal, Inc.",Garland,TX,75043,251-459-9202
+470,BANK,Bank of America,Richard,,Rokusek,,AL,R01396,Certified Residential,Bank of America,Crystal Lake,IL,60014,815-861-1997
+508,AMC,Opteon,Lonnie,O'Neal,Starnes,,AL,R00756,Certified Residential,"Opteon Appraisal, Inc.",Huntsville,AL,35803,256-658-1548
+513,BANK,US Bank,Gina,Howard,Stokes,,AL,R00994,Certified Residential,US Bank,Birmingham,AL,35242,205-447-4462
+597,AMC,Dart Appraisal,NIKOLE,M.,AVERS,,AZ,22477,Certified Residential,Dart Appraisal,GULFPORT,FL,33707,(248)824-1541
+649,BANK,Wells Fargo,Tia-Marie,S,Aldana,,CA,3005163,Certified Residential,Wells Fargo Bank N.A.,San Francisco,CA,94104,626-622-6952
+715,AMC,Class Valuation,Edward,J,Armstrong,,CA,AR030991,Certified Residential,Class Valuation,Ventura,CA,93003,805-312-0903
+736,BANK,Wells Fargo,Hany,J,Avakian,,CA,AR010504,Certified Residential,Wells Fargo,San Francisco,CA,94104,725-202-1010
+766,BANK,JPMorgan Chase,Stephen,E,Baker,,CA,AR026189,Certified Residential,JP Morgan Chase,Los Angeles,CA,90005,213-820-1380
+801,BANK,US Bank,Timothy,W,Barnette,,CA,AR028897,Certified Residential,US Bank,Livermore,CA,94550,925-270-9323
+917,BANK,JPMorgan Chase,Stephen,C,Boe,,CA,AR007470,Certified Residential,JPMorgan Chase,Sacramento,CA,95866,916-335-2890
+924,BANK,Wells Fargo,Ali,,Boloorian,,CA,AR044008,Certified Residential,Wells Fargo REVS,Rancho Santa Margarita,CA,92688,657-269-1022
+936,BANK,Wells Fargo,Creighton,F,Booth,,CA,AR020298,Certified Residential,Wells Fargo Bank N.A.,Los Angeles,CA,90034,310-429-5593
+974,BANK,BMO,David,W,Bratton,,CA,AR030667,Certified Residential,BMO,Chicago,IL,60606,916-549-6260
+1008,BANK,Bank of America,Judy,L,Bruton,,CA,AR003345,Certified Residential,Bank of America,Grass Valley,CA,95949,530-263-7371
+1102,BANK,Wells Fargo,Lauren,S,Carungcong,,CA,3003737,Certified Residential,"Wells Fargo Bank, N.A.",Fontana,CA,92336,818-299-1405
+1105,AMC,Nationwide Appraisal Network,Steven,A,Casazza,,CA,AR006969,Certified Residential,Nationwide Appraisal Network,Oak Park,CA,91377,818-661-8061
+1250,BANK,US Bank,Marla,A,Cohn,,CA,AR004258,Certified Residential,U.S. Bank,Camarillo,CA,93012,646-440-5427
+1258,BANK,Wells Fargo,Antonio,M,Collins,,CA,3003719,Certified Residential,Wells Fargo,Fremont,CA,94538,510-676-1614
+1423,BANK,Wells Fargo,Patricia,V,Delgado,,CA,AR030764,Certified Residential,Wells Fargo Bank,MIssion Viejo,CA,92691,714-496-4132
+1559,BANK,Wells Fargo,Christy,L,Ehli,,CA,AR027029,Certified Residential,Wells Fargo Bank,Corona,CA,92882,951-415-3320
+1621,AMC,Solidifi,Steven,J,Faughn,,CA,AR012739,Certified Residential,Solidifi,Buffalo,NY,14210,716-954-4802
+1659,AMC,Accurate Group,Gail,A,Finney,,CA,AR003893,Certified Residential,"Accurate Group, LLC",Cleveland,OH,44131,760-208-6468
+1717,AMC,ServiceLink,Deborah,K,Frack,,CA,AR007136,Certified Residential,ServiceLink,Corapolis,PA,15108,916-941-9485
+1865,BANK,First Citizens Bank,Blanca,E,Gonzales,,CA,AR010314,Certified Residential,First Citizens Bank,Pasadena,CA,91103,626-535-8922
+1976,BANK,JPMorgan Chase,DOUGLAS,W,HAMMER,,CA,AR036131,Certified Residential,JP Morgan Chase,Jacksonville,FL,32256,904-462-0017
+2016,AMC,Amrock,Kimberly,D,Hartranft,,CA,AR028081,Certified Residential,"Amrock, LLC",Detroit,MI,48226,313-566-4680
+2118,BANK,Bank of America,Kenneth,E,Holzer,,CA,AR026124,Certified Residential,Bank of America,Valencia,CA,91355,661-753-6505
+2182,BANK,Wells Fargo,Stephen,T,Hulka,,CA,AR011169,Certified Residential,Wells Fargo,Mission Viejo,CA,92691,949-210-1063
+2223,AMC,First American,Kyle,G,Ivie,,CA,3008757,Certified Residential,First American Staff Appraisals,Placerville,CA,95667,866-956-4245
+2323,AMC,CoreLogic,Susan,D,Kahanic,,CA,AR003050,Certified Residential,Corelogic,Bellflower,CA,90706,310-995-9116
+2359,BANK,Wells Fargo,Mark,J,Keller,,CA,AR020179,Certified Residential,"Wells Fargo Bank, N.A.",Westlake Village,CA,91362,818-269-1441
+2372,BANK,Wells Fargo,Gregory,N,Kemper,,CA,AR028481,Certified Residential,Wells Fargo Valuation Services,Monterey,CA,93940,831-417-9105
+2383,AMC,ServiceLink,Steven,S,Kervick,,CA,3007637,Certified Residential,ServiceLink,Las Vegas,NV,89141,702-306-3381
+2522,BANK,JPMorgan Chase,William,I,Lane,,CA,AR007155,Certified Residential,J.P.Morgan Chase Bank,Temecula,CA,92592,805-522-5442
+2628,BANK,Bank of America,Randy,J,Liversage,,CA,AR016816,Certified Residential,Bank of America,Murrieta,CA,92562,951-304-9648
+2652,BANK,US Bank,Art,H,Lopez,,CA,AR001993,Certified Residential,US Bank N.A.,Minneapolis,MN,55402,562-618-0218
+2728,BANK,JPMorgan Chase,Kevin,I,Manzano,,CA,3010729,Certified Residential,JPMorgan Chase,Encino,CA,91316,415-315-8609
+2732,AMC,ServiceLink,Ian,R,Marcus,,CA,3010890,Certified Residential,ServiceLink,Madison Heights,MI,48071,248-302-7836
+2803,AMC,ServiceLink,Timothy,S,McCormick,,CA,3011191,Certified Residential,ServiceLink,Anthem,AZ,85086,602-818-9814
+2988,BANK,Wells Fargo,Michael,P,Munley,,CA,AR041760,Certified Residential,Wells Fargo,Conifer,CO,80433,714-599-3897
+3023,BANK,Wells Fargo,J. Jay,,Nasholts,,CA,AR002417,Certified Residential,Wells Fargo,Pleasant Hill,CA,94523,925-360-5008
+3031,BANK,JPMorgan Chase,Alice,J,Navarro,,CA,AR029496,Certified Residential,JPMorgan Chase,South San Francisco,CA,94080,650-291-5732
+3081,AMC,Opteon,Stefan,V,Njegovan,,CA,3009340,Certified Residential,Opteon Appraisal Inc.,Fallbrook,CA,92028,414-343-6292
+3086,BANK,Wells Fargo,Kathy,M,Nolan,,CA,AR026601,Certified Residential,Wells Fargo,Santa Cruz,CA,95060,831-212-1189
+3088,BANK,Wells Fargo,Forouz,,Noordahr,,CA,AR025661,Certified Residential,Wells Fargo Bank,El Monte,CA,91731,310-740-4719
+3113,BANK,First Citizens Bank,Diego,F,Ochoa,,CA,AR012256,Certified Residential,First Citizens Bank / CIT Bank,Pasadena,CA,91103,626-535-8023
+3117,BANK,JPMorgan Chase,Matthew,R,Oglesby,,CA,3009183,Certified Residential,JP Morgan Chase,Jacksonville,FL,32256,580-504-4903
+3198,BANK,JPMorgan Chase,Karleen,J,Pauls,,CA,AR019321,Certified Residential,Chase Appraisal Services,Menifee,CA,92586,951-679-8333
+3205,AMC,First American,William,P,Pearson,,CA,AR033920,Certified Residential,First American Staff Appraisals,Irving,TX,75063,866-956-4245
+3274,BANK,Wells Fargo,Betty,J,Poe,,CA,AR009221,Certified Residential,Wells Fargo Bank,Sunnyvale,CA,94088,650-554-1727
+3420,AMC,Class Valuation,Elise,M,Ringheim,,CA,AR006644,Certified Residential,Class Valuations,Los Alamitos,CA,90720,562-619-5260
+3527,BANK,Wells Fargo,Melody,J,Samuel,,CA,3010847,Certified Residential,Wells Fargo,San Diego,CA,92101,619-964-0617
+3623,BANK,US Bank,Julie,,Shelley,,CA,AR014241,Certified Residential,US Bank,Sacramento,CA,95821,916-225-1812
+3718,BANK,Wells Fargo,Dashiell,F,Soglin,,CA,3010025,Certified Residential,Wells Fargo,Berkeley,CA,94708,341-688-5367
+3729,BANK,Wells Fargo,Kevin,M,Song,,CA,3009110,Certified Residential,Wells Fargo,Sunnyvale,CA,94087,415-710-8238
+3798,BANK,Wells Fargo,Jeffrey,S,Stokesberry,,CA,AR018176,Certified Residential,Wells fargo,El Monte,CA,91731,909-549-0349
+3841,BANK,Wells Fargo,Wenxia,,Sun,,CA,3008160,Certified Residential,Wells Fargo Real Estate Valuation Services,San Mateo,CA,94403,415-851-4717
+3852,AMC,Consolidated Analytics,Cheryl,L,Swanson,,CA,3011325,Certified Residential,Consolidated Analytics,Island Lake,IL,60042,847-830-2004
+3890,BANK,Wells Fargo,Pedro,H,Telles,,CA,3010704,Certified Residential,Wells Fargo,Escondido,CA,92029,760-895-7166
+3926,BANK,Wells Fargo,Leif,,Thorsted,,CA,AR026526,Certified Residential,"Wells Fargo Bank, NA",Valencia,CA,91355,661-505-0297
+3935,AMC,CoreLogic,Ngoc,B,Tien,,CA,3004099,Certified Residential,CoreLogic Platinum Valuation Services,Santa Ana,CA,92799,714-504-0000
+3965,AMC,CoreLogic,Andrew,K,Towns,,CA,AR004210,Certified Residential,CoreLogic Valuation Solutions,Elk Grove,CA,95624,916-715-4883
+4031,BANK,JPMorgan Chase,Paul,N,Vanderbyl,,CA,AR014872,Certified Residential,Chase Bank,Temecula,CA,92592,951-440-5463
+4041,BANK,Bank of America,Humberto,,Vasquez,,CA,AR007053,Certified Residential,Bank of America,Rowland Heights,CA,91748,949-632-8302
+4102,BANK,Wells Fargo,Yun Wen,,Wang,,CA,3011385,Certified Residential,WELLS FARGO BANK,Sunnyvale,CA,94087,669-328-8153
+4110,AMC,PCV Murcor,Christopher,A,Watson,,CA,AR035724,Certified Residential,PCV Murcor,Deer Park,WA,99006,888-623-4001
+4116,AMC,First American,Joseph,P,Weaver,,CA,AR040244,Certified Residential,First American Staff Appraisals,San Diego,CA,92108,877-602-1930
+4148,BANK,Wells Fargo,Carrie,B,Westhurst,,CA,AR029394,Certified Residential,"Wells Fargo Bank, N.A.",Long Beach,CA,90803,562-480-6568
+4188,BANK,US Bank,Christopher,T,Wilson,,CA,AR012381,Certified Residential,US Bank,Rancho Mission Viejo,CA,92694,949-304-3811
+4207,BANK,Bank of America,Darryl,E,Won,,CA,AR029249,Certified Residential,Bank of America,San Francisco,CA,94104,415-913-6058
+4246,BANK,Wells Fargo,Jiancong,,Xiao,,CA,3005069,Certified Residential,Wells Fargo,South San Francisco,CA,94080,650-608-1121
+4275,AMC,ServiceLink,Andrea,B,Young,,CA,AR027754,Certified Residential,Servicelink,Columbus,NC,28722,858-945-4657
+4277,BANK,Wells Fargo,Becky,R,Young,,CA,AR006866,Certified Residential,Wells Fargo,La Habra,CA,90631,562-217-7702
+4358,AMC,First American,Nathan,Lynn,Brockbank,,IA,CR03034,Certified Residential,First American Staff Appraisals,Ankeny,IA,50023,8553050041
+4392,AMC,Rally Appraisal,Alexis,Dane,Cope,,IA,CR03960,Certified Residential,"Rally Appraisal, LLC",Pella,IA,50219,641-613-3240
+4395,AMC,Rally Appraisal,Clinton,C,Cota,,IA,CR02464,Certified Residential,Rally Appraisal,Cedar Falls,IA,50613-1516,3192669373
+4398,AMC,Rally Appraisal,Benjamin,Robert,Crockett,,IA,CR03255,Certified Residential,Rally Appraisal LLC,Cedar Rapids,IA,52402,3193545184
+4408,AMC,Rally Appraisal,Caleb,,Dirks,,IA,CR03505,Certified Residential,Rally Appraisal,Bettendorf,IA,52722,5633326261
+4412,BANK,Wells Fargo,William,Harold,Dooley,,IA,CR01525,Certified Residential,Wells Fargo AQR,Sioux City,IA,51104,7124904738
+4430,AMC,Rally Appraisal,Brandon,Donald,Fitzsimmons,,IA,CR03159,Certified Residential,"Rally Appraisal, LLC",Bettendorf,IA,52722,5638230128
+4434,AMC,First American,Michael,Charles,Follett,,IA,CR03214,Certified Residential,First American Staff Appraisals,Irving,TX,75063,8007234003
+4446,AMC,Rally Appraisal,Gary,John,Gioffredi,,IA,CR03550,Certified Residential,Rally Appraisal,Urbandale,IA,50322,5158744970
+4456,AMC,Rally Appraisal,Jared,Lee,Gregory,,IA,CR03120,Certified Residential,Rally Appraisal,Urbandale,IA,50322,5159744970
+4475,AMC,Rally Appraisal,Shannon,R,Hayes,,IA,CR01909,Certified Residential,Rally Appraisal,Urbandale,IA,50322,5152268733
+4479,AMC,Rally Appraisal,Michael,Scott,Helmich,,IA,CR04128,Certified Residential,Rally Appraisal,Bettendorf,IA,52722,5638230128
+4493,AMC,Rally Appraisal,Adam,J,Horan,,IA,CR02986,Certified Residential,Rally Appraisal,Cedar Falls,IA,50613,3192669373
+4513,BANK,Wells Fargo,Brian,,Kafka,,IA,CR04264,Certified Residential,"Wells Fargo Bank, NA",New Lenox,IL,60451,7082759381
+4516,AMC,Rally Appraisal,Chad,J,Kelley,,IA,CR02242,Certified Residential,"Rally Appraisal, LLC",Bettendorf,IA,52722,5638230125
+4541,AMC,Rally Appraisal,David,,Love,,IA,CR03601,Certified Residential,Rally Appraisal,Beloit,WI,53511,319-266-9373
+4544,AMC,Rally Appraisal,McKayla,,Lueken,,IA,CR03846,Certified Residential,Rally Appraisal,Dubuque,IA,52001,3192669373
+4553,AMC,Rally Appraisal,Allison,Elizabeth,Manternach,,IA,CR03751,Certified Residential,"Rally Appraisal, LLC",Cedar Rapids,IA,52402,319-266-9373
+4574,AMC,Rally Appraisal,Kasey,Michael,Mcmahon,,IA,CR03048,Certified Residential,"Rally Appraisal, LLC",Cedar Rapids,IA,52402,3193930519
+4582,AMC,Rally Appraisal,Matthew,D,Miller,,IA,CR01785,Certified Residential,Rally Appraisal LLC,Bettendorf,IA,52722,5638230128
+4607,AMC,Rally Appraisal,Michael,R,Pittman,,IA,CR03495,Certified Residential,"Rally Appraisal, LLC",Coralville,IA,52241,3193545184
+4614,AMC,Rally Appraisal,William,R,Pruett,,IA,CR02038,Certified Residential,"Rally Appraisal, LLC",Bettendorf,IA,52722,5159744970
+4643,AMC,Rally Appraisal,Benjaman,J,Schaefer,,IA,CR03570,Certified Residential,Rally Appraisal,Urbandale,IA,50322,3192669373
+4646,AMC,Rally Appraisal,Travis,Alan,Schneden,,IA,CR03820,Certified Residential,Rally Appraisal LLC,"Ames, IA. 50010",IA,50010,319-266-9373
+4652,AMC,Rally Appraisal,Brady,Alan,Severson,,IA,CR03721,Certified Residential,Rally Appraisal,Calmar,IA,52132,319-266-9373
+4654,AMC,First American,Joshua,Adam,Shillak,,IA,CR02825,Certified Residential,First American Staff Appraisals,Johnston,IA,50131,6514682353
+4681,AMC,Rally Appraisal,Megan,Louise,Thines,,IA,CR03892,Certified Residential,Rally Appraisal LLC,Bettendorf,IA,52722,563-332-6261
+4693,AMC,Rally Appraisal,Tyler,Andrew,Vauthier,,IA,CR03952,Certified Residential,Rally Appraisal,Urbandale,IA,50322,515-226-8733
+4700,AMC,Rally Appraisal,Cody,Stephen,Wellington,,IA,CR03764,Certified Residential,Rally Appraisal,Urbandale,IA,50322,5152268733
+4703,AMC,Rally Appraisal,Jonathan,Michael,Wienhold,,IA,CR03174,Certified Residential,Rally Appraisal,Cedar Falls,IA,50613,3192669373
+4714,BANK,Wells Fargo,Wendy,,Wysong,,IA,CR02224,Certified Residential,Wells Fargo Real Estate Valuation Servcies,Pleasantville,IA,50225,5152491919
+4720,AMC,Rally Appraisal,Lisa,A,Ziniel,,IA,CR01662,Certified Residential,Rally Appraisal LLC,Coralville,IA,52241,3193545184
+4957,AMC,Accurate Group,Michele,W,Golden,,KY,287974,Certified Residential,Accurate Group,Palm Bch Gdns,FL,33418,8882585757
+4959,BANK,Bank of America,Vincent,R,Graziano,,KY,5811,Certified Residential,Bank of America,Grapevine,TX,76051,4692010101
+4990,BANK,Bank of America,John,P,Heeren,,KY,4890,Certified Residential,Bank of America,Hartford,AR,72938,8176882245
+5069,BANK,Bank of America,Randy,James,Liversage,,KY,4734,Certified Residential,Bank of America,Murrieta,CA,92562,9513049648
+5143,AMC,First American,Marcus,O,Perry,,KY,294917,Certified Residential,First American Staff Appraisals,Murray,KY,42071,
+5178,AMC,ServiceLink,Jenifer,A,Rogers,,KY,288635,Certified Residential,ServiceLink,Moon Township,PA,15108,8887778759
+5215,AMC,Solidifi,Tangi,M,Smith,,KY,301799,Certified Residential,Solidifi Inc,Fort Worth,TX,76131,7163423609
+5247,AMC,Dart Appraisal,Natalie,H,Thompson,,KY,4568,Certified Residential,Dart Appraisal,Palm Coast,FL,32137,7703735523
+5251,BANK,US Bank,Jane,L,Tillinghast,,KY,2967,Certified Residential,US Bank,Desert Hot Springs,CA,92240,8595129623
+5262,BANK,Bank of America,Brian,K,Walker,,KY,2369,Certified Residential,Bank of America,Liberty Township,OH,45044,8594662347
+5304,BANK,PNC Bank,Gerald,Lee,Yurek,Ii,KY,1213,Certified Residential,PNC Bank,Goshen,OH,45122,5133403885
+5330,BANK,Bank of America,JOHN,A,CATALANO,,MT,REA-RAR-LIC-4293,Certified Residential,BANK OF AMERICA,FORT COLLINS,CO,80522,
+5344,BANK,Wells Fargo,JOHN,T,HARRIS,,MT,REA-RAR-LIC-11911,Certified Residential,WELLS FARGO BANK,HIGHLANDS RANCH,CA,80129,2108461794
+5527,AMC,Class Valuation,MICHAEL,J,BRIENZA,,NC,A7966,Certified Residential,CLASS VALUATION,DURHAM,NC,27701,(910) 382-3070
+5537,BANK,Truist,LAURA,K,BROOKS,,NC,A4715,Certified Residential,TRUIST,WILSON,NC,27896,(252) 230-5883
+5636,AMC,Class Valuation,JODIE,M,COFFEY,,NC,A6563,Certified Residential,CLASS VALUATION,MYRTLE BEACH,SC,29588,(843) 655-3171
+5715,BANK,Wells Fargo,J,A,DICKERSON,,NC,A4740,Certified Residential,WELLS FARGO BANK,BELMONT,NC,28012,(704) 747-2919
+5780,BANK,Wells Fargo,KRISTINA,L,FOLK,,NC,A7017,Certified Residential,WELLS FARGO BANK,MINT HILL,NC,28227,(704) 500-3478
+5813,AMC,Accurate Group,MICHELE,W,GOLDEN,,NC,A3705,Certified Residential,ACCURATE GROUP,PALM BEACH GARDENS,FL,33418,(972) 977-7278
+5888,AMC,Amrock,ANGELA,B,HEPNER,,NC,A7195,Certified Residential,"AMROCK, INC",MINT HILL,NC,28227,(704) 763-4859
+5904,AMC,Opteon,GREYSON,R,HITCHNER,,NC,A9190,Certified Residential,"OPTEON APPRAISAL, INC",CHARLOTTE,NC,28205,(704) 746-2299
+5956,BANK,Wells Fargo,MARLA,W,JENKINS,,NC,A6853,Certified Residential,WELLS FARGO,KURE BEACH,NC,28449,(910) 742-5107
+5970,BANK,Huntington Bank,MELINDA,S,JOHNSON,,NC,A2689,Certified Residential,HUNTINGTON BANK,CHARLOTTE,NC,28211,(704) 364-8609
+6109,BANK,PNC Bank,SUSAN,H,MANNING,,NC,A3588,Certified Residential,PNC BANK,CLAYTON,NC,27527,(919) 795-9992
+6235,AMC,Class Valuation,RICHARD,,NICO,,NC,A7846,Certified Residential,CLASS VALUATION,CARY,NC,27518,(919) 414-5204
+6314,BANK,First Citizens Bank,PAMELA,J,PITTMAN,,NC,A2692,Certified Residential,FIRST CITIZENS BANK,WILSON,NC,27893,(919) 302-8022
+6381,BANK,Wells Fargo,MARK,D,ROHDE,,NC,A5009,Certified Residential,"WELLS FARGO BANK, N/A",STATESVILLE,NC,28677,(980) 759-3204
+6445,BANK,Bank of America,DAVID,L,SHORE,,NC,A4211,Certified Residential,BANK OF AMERICA,APEX,NC,27539,(919) 972-1869
+6525,BANK,Truist,MARY,F,STRAND,,NC,A3809,Certified Residential,TRUIST BANK,GREENSBORO,NC,27455,(336) 580-3318
+6604,BANK,First Horizon Bank,MICHAEL,W,UPCHURCH,,NC,A4618,Certified Residential,FIRST HORIZON BANK,SOUTHPORT,NC,28461,(704) 258-3167
+6718,BANK,Gate City Bank,SHARON,A,DeGrand,,ND,CR-2921,Certified Residential,Gate City Bank,FARGO,ND,58102,701-751-5149
+6731,BANK,Bank of America,John,P.,Heeren,,ND,CR-21597,Certified Residential,Bank of America (Landsafe),Hartford,AR,72938,817-688-2245
+6737,BANK,Gate City Bank,KATHRYN,J,Huss,,ND,CR-2911,Certified Residential,Gate City Bank,Fargo,ND,58102,701-293-2455
+6742,BANK,Gate City Bank,Robert,C.,Knoll,,ND,CR-215100,Certified Residential,Gate City Bank,Fargo,ND,58102,701-333-8248
+6743,BANK,Gate City Bank,Luke,J.,Koterba,,ND,CR-218125,Certified Residential,Gate City Bank,Fargo,ND,58102,701-866-5121
+6748,BANK,Gate City Bank,Ryan,A.,Lesmeister,,ND,CR-223129,Certified Residential,Gate City Bank,Fargo,ND,58102,701-721-5788
+6767,BANK,Gate City Bank,DEAN,A,RYLANDER,,ND,CR-2926,Certified Residential,Gate City Bank,MINOT,ND,58701,701-850-9364
+6771,BANK,Gate City Bank,Matthew,L,Schlenvogt,,ND,CR-21598,Certified Residential,Gate City Bank- Appraisal & Evaluation Department,Fargo,ND,58102,701-730-6623
+6775,BANK,Gate City Bank,Shantae,M.,Schumacher,,ND,CR-215104,Certified Residential,Gate City Bank,Fargo,ND,58102,701-561-1105
+6789,AMC,MountainSeed,DAVID,A,ALLEN,,NE,CR2025011R,Certified Residential,MOUNTAINSEED APPRAISAL MANAGEMENT,NEW BERN,NC,28562-7370,252-474-9565
+6820,AMC,Rally Appraisal,CLINTON,C,COTA,,NE,CR2025009R,Certified Residential,RALLY APPRAISAL,CEDAR FALLS,IA,50613-2746,319-266-9373
+6841,BANK,Bank of America,VINCENT,R,GRAZIANO,,NE,CR2022006R,Certified Residential,BANK OF AMERICA,PLANO,TX,75024-4100,469-222-9404
+7091,AMC,Amrock,TIFFANY,L.,NAROFF-MARCHANT,,NH,NHCR-752,Certified Residential,AMROCK INC,NASHUA,NH,3064,(160) 332-17962
+7198,AMC,First American,BRANDON,,BELK,,NV,A.0207795-CR,Certified Residential,FIRST AMERICAN STAFF APPRAISAL,LAS VEGAS,NV,89135,702-460-6729
+7224,BANK,Bank of America,JOHN,A,CATALANO,,NV,A.0005491-CR,Certified Residential,BANK OF AMERICA,Fort Collins,CO,80522,970-797-2884
+7273,AMC,ServiceLink,THOMAS,P,FINN,,NV,A.0208297-CR,Certified Residential,SERVICELINK,SAN DIEGO,CA,92124,619-977-3047
+7293,BANK,JPMorgan Chase,DOUGLAS,W,HAMMER,,NV,A.0207864-CR,Certified Residential,JPMORGAN CHASE,LAS VEGAS,NV,89149,310-465-6474
+7294,AMC,MountainSeed,LISA,K,HAMPTON,,NV,A.0209242-CR,Certified Residential,"MOUNTAINSEED, LLC",CLARKSTON,MI,48346,248-230-0218
+7310,AMC,Amrock,DAVID,S,HOLLISTER,,NV,A.0207998-CR,Certified Residential,AMROCK INC,FRANKLIN,TN,37067,615-337-0094
+7322,AMC,First American,CHASE,P,JOHNSON,,NV,A.0205627-CR,Certified Residential,FIRST AMERICAN STAFF APPRAISAL,LAS VEGAS,NV,89117,702-373-7236
+7324,AMC,ServiceLink,JEFFREY,R,JOHNSON,,NV,A.0207997-CR,Certified Residential,SERVICELINK,KAYSVILLE,UT,84037,801-451-6487
+7375,BANK,Bank of America,RANDY,J,LIVERSAGE,,NV,A.0206414-CR,Certified Residential,BANK OF AMERICA,MURRIETA,CA,92562,714-393-5493
+7391,AMC,ServiceLink,TIMOTHY,S,MCCORMICK,,NV,A.0208282-CR,Certified Residential,SERVICELINK,ANTHEM,AZ,85086,602-818-9814
+7422,AMC,Dart Appraisal,JULIET,M,NORDSTROM,,NV,A.0207780-CR,Certified Residential,DART APPRAISAL,NAPLES,FL,34105,404-388-3098
+7457,BANK,Wells Fargo,CRAIG,,RANDAL,,NV,A.0205687-CR,Certified Residential,WELLS FARGO,LAS VEGAS,NV,89123,702-456-8312
+7474,AMC,Class Valuation,RICHARD,,ROMANO,,NV,A.0004351-CR,Certified Residential,CLASS VALUATION,LAS VEGAS,NV,89117,702-301-9650
+7510,AMC,Solidifi,TANGI,M,SMITH,,NV,A.0209248-CR,Certified Residential,"SOLIDIFI, INC",FORT WORTH,TX,76131,817-903-1067
+8162,AMC,Amrock,RICHARD,L,HIRSCHBERG,,NY,45000004305,Certified Residential,AMROCK,ROCHESTER,NY,14618,
+8186,BANK,JPMorgan Chase,JEFFREY,L,HYATT,,NY,45000000017,Certified Residential,JPM CHASE,MCDONOUGH,GA,30252,
+8207,AMC,MountainSeed,JAMIE,L,JANISCH,,NY,45000054798,Certified Residential,MOUNTAINSEED APPRAISAL MANAGEMENT LLC,ATLANTA,GA,30339,
+8388,BANK,Wells Fargo,ANTONIO,,MALLIA,,NY,45000054586,Certified Residential,WELLS FARGO,BROOKLYN,NY,11204,
+8505,BANK,JPMorgan Chase,ELAINE,M,MORITZ,,NY,45000042536,Certified Residential,JP MORGAN CHASE,LITTLE ELM,TX,75068,
+8663,AMC,Opteon,MICHAEL,J,RIZZO,,NY,45000013195,Certified Residential,OPTEON APPRAISAL,CLARENCE CENTER,NY,14032,
+8666,AMC,Opteon,ANGELIQUE,G,ROBINS,,NY,45000052108,Certified Residential,OPTEON APPRAISAL INC,ROSEMONT,IL,60018,
+9036,AMC,MountainSeed,Jamie,L.,Janisch,,OK,13961CRA,Certified Residential,"MountainSeed Appraisal Management, LLC",Atlanta,GA,30339,(404) 973-2568
+9040,BANK,Bank of America,Ann,E.,Kaczmarek,,OK,13616CRA,Certified Residential,Bank of America / Remote,Saint Augustine,FL,32080,(904) 218-9529
+9056,AMC,Dart Appraisal,Juliet,M.,Nordstrom,,OK,13763CRA,Certified Residential,Dart Appraisal,Naples,FL,34105,(678) 426-5386
+9120,BANK,Wells Fargo,RODNEY,J,BILLOWITZ,,OR,CR01010,Certified Residential,WELLS FARGO,BEND,OR,97702,541-797-3965
+9147,AMC,Class Valuation,KYLE,W,BUTLER,,OR,CR01254,Certified Residential,CLASS VALUATION,TROY,MI,48083,248-955-9580
+9278,AMC,ServiceLink,JEFFREY,R,JOHNSON,,OR,CR01290,Certified Residential,SERVICELINK,KAYSVILLE,UT,84037,801-721-3926
+9315,BANK,US Bank,KERRY,K,MARTIN,,OR,CR00299,Certified Residential,"RED SKY RISK SERVICES, LLC/U.S. BANK, N.A.",BEND,OR,97709,458-292-6304
+9401,AMC,ServiceLink,JENIFER,A,ROGERS,,OR,CR01025,Certified Residential,SERVICELINK,MOON TOWNSHIP,PA,15108,949-395-6208
+9452,AMC,Dart Appraisal,NATALIE,H,THOMPSON,,OR,CR00977,Certified Residential,DART APPRAISAL LLC,TROY,MI,48084,770-373-5523
+9525,BANK,Bank of America,Joel,B,Henry,,RI,CRA.0204111,Certified Residential,Bank of America,Plano,TX,75024,
+9528,BANK,Wells Fargo,Nancy,H,Lima,,RI,CRA.0030071,Certified Residential,Wells Fargo,Plymouth,MA,2360,(774) 404-4057
+9532,AMC,Consolidated Analytics,Cheryl,Lynn,Swanson,,RI,CRA.0205503,Certified Residential,Consolidated Analytics,Island Lake,IL,60042,
+9533,AMC,Dart Appraisal,Nikole,M,Avers,,SD,1431CR,Certified Residential,Dart Appraisal,Troy,MI,48084,
+9547,BANK,Bank of America,John,A,Catalano,,SD,1458CR,Certified Residential,"Bank of America, N.A.",Aspen,CO,81611,
+9565,BANK,Bank of America,John,P,Heeren,,SD,1324CR,Certified Residential,Bank Of America,Hartford,AR,72938,
+9590,BANK,Bank of America,Ian,J,McLaughlin,,SD,1583CR,Certified Residential,Bank of America,Sylmar,CA,91342,
+9946,AMC,MountainSeed,JAYME,Y,SMITH,,TN,5082,Certified Residential,MOUNTAINSEED APPRAISAL MANAGEMENT,TALKING ROCK,GA,30175,470-263-0589
+10994,BANK,JPMorgan Chase,JEFFREY,A,GLUSHAKOW,,WV,CR1035,Certified Residential,Chase Appraisal Services,FREDERICK,MD,21701,301-695-0850
+11104,AMC,Dart Appraisal,Nikole,M,Avers,,WY,AP-1569,Certified Residential,Dart Appraisal,Troy,MI,48084,(248) 824-1541
+11112,AMC,Amrock,Thomas,,Byrne,,WY,AP-2306,Certified Residential,AMROCK,Floral Park,NY,11001,3138772358
+11121,AMC,Consolidated Analytics,Hansel,A,Dobbs,,WY,AP-1926,Certified Residential,"Consolidated Analytics, Inc",Allen,TX,75013,2147286862
+11141,AMC,CoreLogic,Catina,,House,,WY,AP-2317,Certified Residential,"Corelogic Valuation Solutions, Inc",Irving,TX,75063,469-767-9350
