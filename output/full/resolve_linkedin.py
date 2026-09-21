@@ -1,13 +1,23 @@
 #!/usr/bin/env python3
 """Resolve LinkedIn profile URLs for every appraiser via Firecrawl /v1/search (curl).
 Resumable: skips row_ids already in li_firecrawl.tsv. Writes: row_id\turl\tconfidence\ttitle\temail"""
-import subprocess, threading, os, json, re, time
+import subprocess, threading, os, json, re, time, sys
 from concurrent.futures import ThreadPoolExecutor
 
 BASE=os.path.dirname(__file__)
 PEOPLE=os.path.join(BASE,"people.csv")
 OUT=os.path.join(BASE,"li_firecrawl.tsv")
 API="https://api.firecrawl.dev/v1/search"
+
+# Firecrawl API key: from env, else a gitignored key file. Empty => keyless free tier
+# (a few hundred searches then a ~5h lockout, so it can't sweep the full list alone).
+KEY=os.environ.get("FIRECRAWL_API_KEY","").strip()
+_KEYFILE=os.path.join(BASE,".firecrawl_key")
+if not KEY and os.path.exists(_KEYFILE):
+    try: KEY=open(_KEYFILE,encoding="utf-8").read().strip()
+    except Exception: KEY=""
+WORKERS=int(os.environ.get("FIRECRAWL_WORKERS", "6" if KEY else "4"))
+STOP=threading.Event()   # set when quota/credits are exhausted -> halt the run gracefully
 GENERIC={"appraisal","appraisals","appraiser","real","estate","valuation","valuations","services",
          "service","group","company","inc","llc","the","and","associates","company,","of","co",
          "residential","commercial","properties","property","home","bank","na"}
@@ -38,15 +48,24 @@ def first_match(a,b):
 
 def search(query, tries=4):
     body=json.dumps({"query":query,"limit":5})
+    cmd=["curl","-s","-X","POST",API,"-H","Content-Type: application/json"]
+    if KEY: cmd+=["-H",f"Authorization: Bearer {KEY}"]
+    cmd+=["-d",body,"--max-time","40"]
     for i in range(tries):
+        if STOP.is_set(): return None
         try:
-            r=subprocess.run(["curl","-s","-X","POST",API,"-H","Content-Type: application/json",
-                              "-d",body,"--max-time","40"],capture_output=True,text=True,timeout=50,errors="ignore")
+            r=subprocess.run(cmd,capture_output=True,text=True,timeout=50,errors="ignore")
             d=json.loads(r.stdout)
             if isinstance(d,dict) and d.get("data") is not None:
                 return d["data"]
-            # rate limited / error -> backoff
-            time.sleep(2*(i+1))
+            # error response: distinguish quota exhaustion (stop) from transient RPM (backoff)
+            if isinstance(d,dict):
+                reason=str(d.get("reason","")).lower()
+                err=str(d.get("error","")).lower()
+                if reason=="credits" or "rate limit" in err or "quota" in err or "credit" in err:
+                    STOP.set()          # quota gone -> don't churn, halt the whole run
+                    return None
+            time.sleep(2*(i+1))         # transient -> backoff and retry
         except Exception:
             time.sleep(2*(i+1))
     return None
@@ -91,11 +110,12 @@ def score(person, results):
     return (best[1],best[2],best[3],email)
 
 def work(person):
+    if STOP.is_set(): return
     rid=person["row_id"]
     q=f'{person["First"]} {person["Last"].split(",")[0]} appraiser {person["City"]} {person["State"]} {person["Company"]} linkedin'
     res=search(q)
     if res is None:
-        return  # transient failure -> leave unrecorded so it retries on the next run
+        return  # transient failure / quota stop -> leave unrecorded so it retries on the next run
     url,conf,title,email=score(person,res)
     line="\t".join([rid,url,conf,title,email])+"\n"
     with lock:
@@ -110,9 +130,13 @@ def main():
             rid=l.split("\t",1)[0].strip()
             if rid: done.add(rid)
     todo=[p for p in people if p["row_id"] not in done]
-    print(f"to process: {len(todo)} (already done {len(done)})", flush=True)
-    with ThreadPoolExecutor(max_workers=6) as ex:
+    print(f"to process: {len(todo)} (already done {len(done)}) | key={'yes' if KEY else 'NO (keyless)'} workers={WORKERS}", flush=True)
+    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         list(ex.map(work, todo))
+    if STOP.is_set():
+        print("STOPPED: Firecrawl quota/credits exhausted. Resume after reset, or set "
+              "FIRECRAWL_API_KEY / write output/full/.firecrawl_key and rerun.", flush=True)
+        sys.exit(3)
     print("linkedin resolve done", flush=True)
 
 if __name__=="__main__":

@@ -1,2 +1,5 @@
 output/full/li_chunks/in_*.csv
 output/full/resolve.log
+output/full/li_resolve.log
+output/full/finalize2.log
+output/full/.firecrawl_key
