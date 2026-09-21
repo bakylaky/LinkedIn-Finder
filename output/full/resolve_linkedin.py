@@ -95,9 +95,8 @@ def work(person):
     q=f'{person["First"]} {person["Last"].split(",")[0]} appraiser {person["City"]} {person["State"]} {person["Company"]} linkedin'
     res=search(q)
     if res is None:
-        url,conf,title,email=("","ERROR","search failed","")
-    else:
-        url,conf,title,email=score(person,res)
+        return  # transient failure -> leave unrecorded so it retries on the next run
+    url,conf,title,email=score(person,res)
     line="\t".join([rid,url,conf,title,email])+"\n"
     with lock:
         with open(OUT,"a",encoding="utf-8") as f: f.write(line)
