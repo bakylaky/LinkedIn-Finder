@@ -1,6 +1,6 @@
 master_enriched.csv: 11209 rows
   company domain filled : 2420 (21%)
-  LinkedIn URL          : 1222
+  LinkedIn URL          : 2053
   employer-confirmed    : 131
-  LinkedIn processed    : 1353   (not-searched placeholders: 0)
+  LinkedIn processed    : 2184   (not-searched placeholders: 0)
   hand-verified overlaid: 159
