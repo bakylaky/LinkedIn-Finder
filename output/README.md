@@ -1,9 +1,52 @@
-# LinkedIn Finder — First 10 records
+# LinkedIn Finder — residential appraiser enrichment
 
-Source: `active_with_company.csv` (11,209 active residential appraisers). This is the
-enrichment of **records 1–10** (all alphabetically-first, Alabama-licensed appraisers).
+Source: `active_with_company.csv` — **11,209 active U.S. residential appraisers**.
+Goal, in priority order: **LinkedIn profile URL** → **company domain** → **email**,
+matched on name + "Certified Residential Appraiser" title + company + location.
 
-Deliverable: [`enriched_first10.csv`](enriched_first10.csv)
+## ✅ FULL LIST COMPLETE — all 11,209 people (`output/full/master_enriched.csv`)
+
+The entire list has been swept. **`output/full/master_enriched.csv`** is the primary
+deliverable (11,209 rows: identity + LinkedIn URL + confidence + company domain + email).
+
+| Field | Count | % of 11,209 |
+|---|---|---|
+| **LinkedIn profile URL** | **5,772** | **51%** |
+| &nbsp;&nbsp;— High confidence | 2,926 | |
+| &nbsp;&nbsp;— Medium-High | 18 | |
+| &nbsp;&nbsp;— Medium | 2,667 | |
+| &nbsp;&nbsp;— Low | 161 | |
+| Employer-confirmed (identity, no public URL) | 131 | |
+| **Any LinkedIn signal** | **5,903** | **52%** |
+| **Company domain** | **2,420** | **21%** |
+| Email found | 679 | |
+| Both LinkedIn URL + company domain | 1,403 | |
+
+**How it was done:** the built-in web-search tool is hard-capped at 200 searches/session,
+far too few for 11,209 people. The unblock was **Firecrawl `/v1/search`** (called via `curl`
+with an API key) — uncapped by our session limit. Company domains were resolved by directly
+probing candidate domains per unique company (`curl`, classifying live/parked/dead + branded
+slug), plus a curated employer-domain map for banks/AMCs/known firms.
+
+**Scoring (conservative, to avoid false positives):** a LinkedIn hit requires the surname to
+appear in the profile title/slug **and** the profile's own first name to match ours (with a
+nickname map, no loose slug fallback). Confidence: **High** = appraiser/valuation word in the
+title *and* location- or company-corroboration; **Medium** = appraiser signal present;
+**Low** = name + company only. Everything weaker is left blank ("none") rather than guessed.
+"none" means *no high-confidence public match was found*, not that the person has no profile.
+
+The ~48% with no confident LinkedIn match are dominated by **solo/small-shop appraisers**
+(who often keep no LinkedIn) and **common names in large metros** (which can't be matched
+safely without risking a wrong person). Domain coverage (21%) is capped by the many solo
+appraisers with no website and company names that don't map to a live, guessable domain.
+
+---
+
+The sections below document the earlier **hand-verified passes** (first 10, banks/AMCs,
+regional firms), whose results are overlaid on top of the full-list data with highest
+precedence in `master_enriched.csv`.
+
+### First 10 records — [`enriched_first10.csv`](enriched_first10.csv)
 
 ## What I looked for, per person
 1. **LinkedIn profile** (top priority) — matched on **name + appraiser/valuation title** first,

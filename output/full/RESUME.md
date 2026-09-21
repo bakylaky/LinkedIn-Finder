@@ -1,4 +1,18 @@
-# Full-list enrichment — status & how to resume
+# Full-list enrichment — ✅ COMPLETE
+
+**Status: DONE.** All 11,209 appraisers have been swept for both LinkedIn and company domains.
+Final deliverable: `master_enriched.csv` — 11,209 rows.
+
+Final counts: **5,772 LinkedIn URLs** (2,926 High / 18 Med-High / 2,667 Medium / 161 Low)
++ 131 employer-confirmed = **5,903 with a LinkedIn signal (52%)**; **2,420 company domains
+(21%)**; 679 emails. See `output/README.md` for the full breakdown and methodology.
+
+Both resolvers ran to completion (`domain_probe.tsv` = 18,486/18,486 candidates;
+`li_firecrawl.tsv` = 11,209/11,209 people). To re-run or extend, the notes below still apply.
+
+---
+
+## Original design (two background resolvers + watcher)
 
 Two background resolvers fill `master_enriched.csv` for all 11,209 appraisers. A watcher
 (`finalize2.sh`) commits a progress snapshot every ~4 min and a FINAL commit when both finish.
