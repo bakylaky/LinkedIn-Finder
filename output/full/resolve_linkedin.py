@@ -58,13 +58,20 @@ def search(query, tries=4):
             d=json.loads(r.stdout)
             if isinstance(d,dict) and d.get("data") is not None:
                 return d["data"]
-            # error response: distinguish quota exhaustion (stop) from transient RPM (backoff)
+            # error response: distinguish credit/quota exhaustion (STOP) from transient RPM (backoff)
             if isinstance(d,dict):
                 reason=str(d.get("reason","")).lower()
                 err=str(d.get("error","")).lower()
-                if reason=="credits" or "rate limit" in err or "quota" in err or "credit" in err:
-                    STOP.set()          # quota gone -> don't churn, halt the whole run
+                exhausted = (reason=="credits" or "insufficient" in err or "out of credit" in err
+                             or "quota" in err or "upgrade" in err or "payment" in err
+                             or ("credit" in err and "rate limit" not in err))
+                if exhausted:
+                    STOP.set()          # credits gone -> don't churn, halt the whole run
                     return None
+                # transient (RPM 429 etc.): honor retry_after if given, capped
+                ra=d.get("retry_after_seconds")
+                if isinstance(ra,(int,float)) and 0<ra<=60:
+                    time.sleep(ra); continue
             time.sleep(2*(i+1))         # transient -> backoff and retry
         except Exception:
             time.sleep(2*(i+1))
